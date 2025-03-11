@@ -20,7 +20,7 @@ register:
     password: password
 
 oneapi:
-  enabled: true                             # Ingest data into OneAPI server
+  enabled: false                             # Ingest data into OneAPI server
   url: http://localhost:3500                 # OneAPI server url
   token: 6fa72d319323415ab2abdb379565671d                   # OneAPI token, see more details in https://github.com/songquanpeng/one-api/blob/main/docs/API.md
   channel_url: http://localhost:3010         # Base url of the channel
